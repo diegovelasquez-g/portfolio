@@ -1,0 +1,68 @@
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .gradient-text {
+    background: linear-gradient(-45deg, #7343D9, #D95032, #FFF);
+    background-size: 250%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 5s ease infinite;
+  }
+  
+  @keyframes borderGradient {
+      0% {
+        border-color: #ee7752;
+      }
+      25% {
+        border-color: #e73c7e;
+      }
+      50% {
+        border-color: #23a6d5;
+      }
+      75% {
+        border-color: #23d5ab;
+      }
+      100% {
+        border-color: #ee7752;
+      }
+    }
+    
+    .border-gradient {
+      animation: borderGradient 5s ease infinite;
+    }
+  
+  .galaxy-background{
+      background-image: url(../../public/img/space.jpg);
+      background-size: cover;
+      background-position: center;
+  }
+  
+  .image-rotate{
+    transform: scaleX(-1);
+  }
+  
+  @keyframes floating {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0, -10px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  
+  .floating-animation {
+    animation: floating 3s ease-in-out infinite;
+  }
