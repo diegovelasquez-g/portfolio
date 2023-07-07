@@ -1,4 +1,4 @@
-import ProyectCard from "./ProyectCard";
+import ProjectCard from "./ProjectCard";
 import MachapuImg from "@/public/img/xd.png";
 import PROCATECDBImg from "@/public/img/procated.png";
 
@@ -13,7 +13,7 @@ const ProyectsSection = () => {
         </h1>
         <div className="flex flex-col md:flex-row items-center gap-5 justify-center p-5">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-10 mt-10 lg:px-10">
-            <ProyectCard
+            <ProjectCard
               proyectTitle="Machapu"
               proyectDescription="Mobile Application that allows to the clients check about the available rooms of the hotel, check the services and disponibility of each room, also allows to make reservations."
               proyectImg={MachapuImg}
@@ -32,7 +32,7 @@ const ProyectsSection = () => {
                 },
               ]}
             />
-            <ProyectCard
+            <ProjectCard
               proyectTitle="PROCATECDB"
               proyectDescription="
               Desktop application to control registration for courses that are provided to women and girls, it also allows the generation of reports."
